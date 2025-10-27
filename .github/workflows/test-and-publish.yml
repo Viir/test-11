@@ -6,6 +6,10 @@ on:
   pull_request_review:
     types: [submitted]
 
+permissions:
+  checks: write
+  pull-requests: write
+
 jobs:
   build:
 
