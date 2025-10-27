@@ -23,4 +23,12 @@
   <ItemGroup>
     <ProjectReference Include="..\GitCore\GitCore.csproj" />
   </ItemGroup>
+
+<ItemGroup>
+  <Content Include="..\TestData\2025-10-27-clone\files-after-git-clone\**\*">
+    <Link>TestData\2025-10-27-clone\files-after-git-clone\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+</ItemGroup>
+
 </Project>
