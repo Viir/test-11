@@ -20,4 +20,12 @@ public class LoadFromGitHubTests
 
         readmeSHA256Hex.Should().Be("3ac5bef607354b0b2b30ad140d34a4f393d12bfd375f9a8b881bb2b361cb21c7");
     }
+
+    [Fact]
+    public void Placeholder()
+    {
+        /*
+         * Avoid "Zero tests ran" error in CI as long as there are no real tests yet.
+         * */
+    }
 }
