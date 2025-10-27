@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="GitCore.IntegrationTests/GitCore.IntegrationTests.csproj" />
+  <Project Path="GitCore.UnitTests/GitCore.UnitTests.csproj" />
+  <Project Path="GitCore/GitCore.csproj" />
+</Solution>
